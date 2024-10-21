@@ -1,12 +1,57 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
-import './Styles/Header.css';
+import './Styles/HeaderNav.css';
+import './Styles/HeaderContent.css';
 import { FiDownload, FiMenu, FiX } from 'react-icons/fi';
+import Typewriter from 'react-typewriter-effect';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const [fontSize, setFontSize] = useState('3.5rem');
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth <= 650) {
+                setFontSize('2rem');
+            } else {
+                setFontSize('3.5rem');
+            }
+        };
+        window.addEventListener("resize", handleResize);
+        handleResize();
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return (
         <div className="parent-container">
+            <div class="header-content-container">
+                <div className="h1-space-top"></div>
+                <h1>Hello, I'm Josef!</h1>
+                <div className="type-writer-container">
+                    <Typewriter
+                        textStyle={{
+                            fontSize: fontSize,
+                        }}
+                        startDelay={100}
+                        cursorColor="#2294ff"
+                        text="Mobile Developer"
+                        typeSpeed={100}
+                        hideCursorAfterText={true}
+                    />
+                </div>
+                <p>
+                    Passionate about building high-performance and user-centric mobile applications. Committed to developing innovative solutions that enhance user experience and deliver impactful results.
+                </p>
+                <div className="header-button-space-top"></div>
+                <div className="header-button-container">
+                    <button className="btn-get-started">
+                        Get Started
+                    </button>
+                    <button className="btn-about-me">
+                        About Me
+                    </button>
+                </div>
+            </div>
             <div class="nav-container">
                 <div className="title-container">
                     <Link to="/" className="title">
@@ -23,7 +68,7 @@ const Header = () => {
                 </div>
                 <div className={menuOpen ? "item-container open" : "item-container close"}>
                     <div className="menu">
-                        <div className="menu-item">Home</div>
+                        <NavLink className="home-menu-link" to="/"><div className="menu-item">Home</div></NavLink>
                         <div className="menu-item">Skill</div>
                         <div className="menu-item">Project</div>
                         <div className="menu-item">Work Experience</div>
@@ -35,26 +80,6 @@ const Header = () => {
                     </button>
                 </div>
             </div>
-            {/* <nav>
-
-                <div className="menu" onClick={() => {
-                    setMenuOpen(!menuOpen);
-                }}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <ul className={menuOpen ? "open" : ""}>
-                    <li><NavLink to='/home'>Home</NavLink></li>
-                    <li><NavLink to="/">Skill</NavLink></li>
-                    <li><NavLink to="/">Project</NavLink></li>
-                    <li><NavLink to="/">Work Experience</NavLink></li>
-                    <li><NavLink to="/">Contact</NavLink></li>
-                </ul>
-            </nav> */}
         </div>
     );
 }

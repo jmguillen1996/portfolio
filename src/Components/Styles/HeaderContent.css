@@ -1,0 +1,106 @@
+.header-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h1-space-top {
+    height: 70px;
+}
+
+.header-button-space-top {
+    height: 30px;
+}
+
+.header-content-container h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 4.5rem;
+    text-align: center;
+    margin: 0px;
+    width: 550px;
+}
+
+.type-writer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 550px;
+    font-family: Poppins, sans-serif;
+    color: #2294ff;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.header-content-container p {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: rgb(200, 200, 200);
+    width: 550px;
+}
+
+.header-button-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.btn-get-started {
+    background-color: rgb(29, 161, 242);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(29, 161, 242);
+    padding: 14px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 9rem;
+    border-radius: 38px;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 0.5rem;
+}
+
+.btn-about-me {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(29, 161, 242);
+    padding: 14px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 9rem;
+    border-radius: 38px;
+    font-size: 16px;
+    cursor: pointer;
+    gap: 0.5rem;
+}
+
+.header-button-container button:hover {
+    background-color: rgb(29, 161, 242);
+}
+
+@media (max-width: 650px) {
+    .header-content-container h1 {
+        font-size: 2.8rem;
+        width: 350px;
+    }
+    
+    .type-writer-container {
+        width: 350px;
+    }
+    
+    .header-content-container p {
+        width: 350px;
+    }
+
+    .header-button-container {
+        gap: 1.5rem;
+    }
+}
