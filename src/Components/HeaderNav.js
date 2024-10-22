@@ -5,21 +5,6 @@ import { FiDownload, FiMenu, FiX } from 'react-icons/fi';
 
 const HeaderNav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const [fontSize, setFontSize] = useState('3.5rem');
-
-    useEffect(() => {
-        const handleResize = () => {
-            if (window.innerWidth <= 650) {
-                setFontSize('2rem');
-            } else {
-                setFontSize('3.5rem');
-            }
-        };
-        window.addEventListener("resize", handleResize);
-        handleResize();
-        return () => window.removeEventListener("resize", handleResize);
-    }, []);
-
     return (
         <div class="nav-container">
             <div className="title-container">
