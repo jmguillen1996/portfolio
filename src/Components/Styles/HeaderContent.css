@@ -90,8 +90,13 @@
     gap: 0.5rem;
 }
 
-.header-button-container button:hover {
+.btn-about-me:hover {
     background-color: rgb(29, 161, 242);
+}
+
+.btn-get-started:hover {
+    background-color: #0078ff;
+    border-color: #0078ff;
 }
 
 @media (max-width: 650px) {
