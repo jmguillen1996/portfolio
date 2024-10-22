@@ -1,12 +1,12 @@
 import React from "react";
-import Header from "../Components/Header";
+import HeaderContent from "../Components/HeaderContent";
 import Footer from "../Components/Footer";
 import "./Styles/Home.css";
 
 const Home = () => {
     return (
         <div>
-            <Header />
+            <HeaderContent />
             <h1>Home</h1>
             <Footer />
         </div>
