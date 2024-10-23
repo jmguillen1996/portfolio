@@ -4,6 +4,10 @@
         "name": "Flutter"
     },
     {
+        "image_asset": "/images/dart.png",
+        "name": "Dart"
+    },
+    {
         "image_asset": "/images/kotlin.png",
         "name": "Kotlin"
     },
@@ -16,36 +20,12 @@
         "name": "C#"
     },
     {
-        "image_asset": "/images/dart.png",
-        "name": "Dart"
-    },
-    {
-        "image_asset": "/images/mongodb.svg",
-        "name": "MongoDB"
-    },
-    {
-        "image_asset": "/images/firebase.png",
-        "name": "Firebase"
-    },
-    {
         "image_asset": "/images/xamarin.png",
         "name": "Xamarin"
     },
     {
         "image_asset": "/images/maui.png",
         "name": ".Net Maui"
-    },
-    {
-        "image_asset": "/images/nodejs.svg",
-        "name": "Node Js"
-    },
-    {
-        "image_asset": "/images/android_studio.png",
-        "name": "Android Studio"
-    },
-    {
-        "image_asset": "/images/visual_studio.png",
-        "name": "Visual Studio"
     },
     {
         "image_asset": "/images/android.png",
@@ -56,7 +36,31 @@
         "name": "IOS"
     },
     {
+        "image_asset": "/images/mongodb.svg",
+        "name": "MongoDB"
+    },
+    {
+        "image_asset": "/images/firebase.png",
+        "name": "Firebase"
+    },
+    {
+        "image_asset": "/images/nodejs.svg",
+        "name": "Node Js"
+    },
+    {
         "image_asset": "/images/rest_api.png",
-        "name": "Rest API"
+        "name": "REST APIs"
+    },
+    {
+        "image_asset": "/images/git.png",
+        "name": "Git"
+    },
+    {
+        "image_asset": "/images/android_studio.png",
+        "name": "Android Studio"
+    },
+    {
+        "image_asset": "/images/visual_studio.png",
+        "name": "Visual Studio"
     }
 ]
