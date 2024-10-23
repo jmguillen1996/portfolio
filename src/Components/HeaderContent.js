@@ -9,7 +9,7 @@ const HeaderContent = () => {
 
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth <= 650) {
+            if (window.innerWidth <= 680) {
                 setFontSize('2rem');
             } else {
                 setFontSize('3.5rem');
