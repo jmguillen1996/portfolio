@@ -28,13 +28,14 @@
     padding-top: 2rem;
     padding-left: 20rem;
     padding-right: 20rem;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     line-height: 2rem;
     color: rgb(200, 200, 200);
     display: bloc;
     flex-wrap: wrap;
     justify-content: flex-start;
     overflow-wrap: break-word;
+    line-height: 1.6rem;
 }
 
 .text-highlight {
@@ -99,7 +100,9 @@
     }
 
     .about-me {
-        font-size: 1.5rem;
+        padding-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.3rem;
     }
 
 
@@ -113,9 +116,5 @@
 
     .about-container h1 {
         font-size: 1.5rem;
-    }
-
-    .about-me {
-        font-size: 1rem;
     }
 }

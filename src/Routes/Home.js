@@ -4,6 +4,7 @@ import HomeSkills from "../Components/HomeSkills";
 import Footer from "../Components/Footer";
 import HeaderNav from "../Components/HeaderNav";
 import HomeAboutMe from "../Components/HomeAboutMe";
+import HomeProjects from "../Components/HomeProjects";
 import "./Styles/Home.css";
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
                 <div className="header-line"></div>
                 <HomeSkills />
                 <HomeAboutMe />
+                <HomeProjects />
                 <Footer />
             </div>
         </div>
