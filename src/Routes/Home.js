@@ -3,6 +3,7 @@ import HeaderContent from "../Components/HeaderContent";
 import HomeSkills from "../Components/HomeSkills";
 import Footer from "../Components/Footer";
 import HeaderNav from "../Components/HeaderNav";
+import HomeAboutMe from "../Components/HomeAboutMe";
 import "./Styles/Home.css";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
                 <HeaderContent />
                 <div className="header-line"></div>
                 <HomeSkills />
+                <HomeAboutMe />
                 <Footer />
             </div>
         </div>
