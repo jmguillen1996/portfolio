@@ -1,20 +1,12 @@
-.parent-container {
-    position: relative;
-    width: 100%;
-    height: 700px;
-    color: rgb(255, 255, 255);
-    background-image: linear-gradient(168deg, rgb(28, 46, 77), rgb(17, 17, 17) 400px);
-}
-
 .header-content-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    height: 700px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(168deg, rgb(28, 46, 77), rgb(17, 17, 17) 400px);
 }
 
 .h1-space-top {
@@ -98,6 +90,10 @@
 }
 
 @media (max-width: 680px) {
+    .header-content-container {
+        height: 650px;
+    }
+
     .header-content-container h1 {
         font-size: 2.8rem;
     }
@@ -108,5 +104,21 @@
 
     .header-button-container {
         gap: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .header-content-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-content-container p {
+        width: 330px;
+        font-size: 1.2rem;
+    }
+
+    .header-button-container {
+        gap: 1rem;
     }
 }
