@@ -49,6 +49,7 @@
     font-weight: 500;
     color: rgb(29, 161, 242);
     cursor: pointer;
+    line-height: 1.2rem;
 }
 
 .work-header:hover {
@@ -73,6 +74,10 @@
 
 .work-timeline {
     font-size: 0.9rem;
+}
+
+.work-address {
+    margin-top: 0.4rem;
 }
 
 .work-content {

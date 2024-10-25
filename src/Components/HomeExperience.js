@@ -30,7 +30,7 @@ const HomeExperience = () => {
                                 <div className={`work-header ${open[index] ? 'open' : ''}`} onClick={() => toggle(index)}>
                                     <div className="work-header-content">
                                         <h1 className="work-position">
-                                            {work.position} {/*   */}
+                                            {work.position}
                                         </h1>
                                         <div className="work-address">
                                             {work.company}, {work.address} {work.others}
