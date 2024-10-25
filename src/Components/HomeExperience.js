@@ -54,6 +54,30 @@ const HomeExperience = () => {
                                             )
                                         )
                                     }
+                                    <div className="work-project-title">
+                                        Projects Contributed To
+                                    </div>
+                                    <div className="work-project-container">
+                                        {
+                                            work.projects.map(
+                                                (project, index) => (
+                                                    <div className="work-project-item-container">
+                                                        <div className="work-project-name">{project.name}</div>
+                                                        {
+                                                            project.bullets.map(
+                                                                (bullets, index) => (
+                                                                    <div className="bullet-container">
+                                                                        <div className="bullet-item">&#8226;</div>
+                                                                        <div>{bullets}</div>
+                                                                    </div>
+                                                                )
+                                                            )
+                                                        }
+                                                    </div>
+                                                )
+                                            )
+                                        }
+                                    </div>
                                     <div className="work-stack-container">
                                         {
                                             work.tech_stacks.map(

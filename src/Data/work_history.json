@@ -6,21 +6,24 @@
         "others": "(Project Based)",
         "timeline": "January 2024 - July 2024",
         "bullets": [
-            "Led the end-to-end development of VisionFrame AI, an innovative AI-powered digital art platform.",
-            "Managed client communications, addressing concerns and integrating feedback to meet expectations.",
-            "Assigned tasks and supervised junior developers to maintain project timelines and ensure on-time delivery.",
-            "Trained and mentored junior team members, fostering growth in their technical skills and project contributions.",
-            "Built VisionFrame AI from scratch, including mobile app and backend systems, for an intuitive and engaging user experience.",
-            "Delivered client-requested features and solutions, ensuring the platform aligned with their vision and requirements."
+            "As the lead developer for VisionFrame AI, I managed the end-to-end development of an AI-powered digital art platform. My responsibilities included overseeing both the mobile and backend systems, ensuring seamless client communications, and mentoring junior developers. I played a pivotal role in guiding the project from concept to completion, working closely with stakeholders to deliver custom solutions that aligned with client needs and ensured an intuitive user experience."
         ],
         "projects": [
             {
                 "name": "Vision Frame AI (Digital Frame)",
-                "bullets": []
+                "bullets": [
+                    "Developed an interactive digital frame designed to transform living spaces into dynamic galleries filled with AI-generated art.",
+                    "Enabled users to interact with the frame through voice commands, allowing them to request image generation, artwork descriptions, background sounds, or slideshow displays.",
+                    "Built the application from scratch, integrating OpenAI APIs for real-time responses to user requests, facilitating conversational interactions with the frame."
+                ]
             },
             {
                 "name": "VisionFrame AI - User App (Android & iOS)",
-                "bullets": []
+                "bullets": [
+                    "Created a mobile app that serves as the control center for managing generated images and interactions with the digital frame.",
+                    "Integrated a Gallery feature for easy access to all generated images and a Chat feature for tracking user interactions with the frame.",
+                    "Implemented functionalities to create slideshows, upload images, control frame settings (brightness and volume), and set smart schedules for displaying art."
+                ]
             }
         ],
         "tech_stacks": [
@@ -39,10 +42,17 @@
         "address": "Makati City, PH",
         "timeline": "April 2022 - December 2023",
         "bullets": [
-            "Played a key role in developing critical features, including enabling app-to-machine communication and real-time tracking of machine statuses.",
-            "Led the implementation of the core “Measurement” functionality for enhanced usability in healthcare settings.",
-            "Actively contributed to identifying and resolving bugs, ensuring smooth functionality and maintaining high application quality.",
-            "Mentored junior developers and conducted code reviews, supporting team growth and maintaining coding standards."
+            "Contributed to the development of a mobile application that enables healthcare professionals to remotely operate and monitor blood analyzer machines in real-time. Played a significant role in building key features, such as real-time machine status tracking and the \"Measurement\" functionality, while ensuring the application’s smooth performance and reliability. Actively engaged in bug fixing and quality assurance efforts, and mentored junior developers to uphold coding standards and foster growth."
+        ],
+        "projects": [
+            {
+                "name": "Blood Analyzer (BA) - Mobile Application",
+                "bullets": [
+                    "Developed real-time communication features, enabling healthcare professionals to track machine statuses (e.g., Standby, Maintenance, Measuring) through the app.",
+                    "Implemented the core \"Measurement\" feature, allowing users to initiate and stop the measurement process and receive real-time results for immediate feedback.",
+                    "Led the design and development of the machine monitoring feature, providing users with live insights into the machine’s operational states."
+                ]
+            }
         ],
         "tech_stacks": [
             "Flutter",
@@ -57,11 +67,25 @@
         "address": "Makati City, PH",
         "timeline": "October 2020 - April 2022",
         "bullets": [
-            "Developed Android applications from scratch, including SIMONE (insurance app) and RedDot (emergency SOS app), using Kotlin.",
-            "Released multiple applications to Google Play Store, ensuring a smooth and user-ready launch.",
-            "Maintained and enhanced existing applications, including the Handsup time-tracking app, developed in Java.",
-            "Actively monitored reports, addressed inquiries, and resolved bugs to maintain high-quality performance and user satisfaction.",
-            "Collaborated with cross-functional teams to integrate essential features like policy management, time tracking, and emergency notifications."
+            "Developed and maintained Android applications for FPG Insurance, collaborating with cross-functional teams to integrate essential features for business operations. Led projects from development to deployment, ensuring smooth user experiences and successful launches on the Google Play Store. Played a key role in enhancing internal tools and delivering user-focused solutions."
+        ],
+        "projects": [
+            {
+                "name": "SIMONE App (Insurance Application)",
+                "bullets": [
+                    "Led the development of the Android app from scratch, enabling agents to manage client portfolios, generate quotations, issue policies, process renewals, handle payments, and submit claims seamlessly.",
+                    "Collaborated with cross-functional teams to integrate core insurance processes and workflows.",
+                    "Managed the successful launch of the app on the Google Play Store."
+                ]
+            },
+            {
+                "name": "Handsup App (Time Tracking Application)",
+                "bullets": [
+                    "Maintained and enhanced this internal time-tracking app, ensuring smooth time-in/time-out processes for employees and allowing them to track their records.",
+                    "Addressed bug reports and user inquiries to guarantee a seamless user experience.",
+                    "Led the app’s release on the Google Play Store."
+                ]
+            }
         ],
         "tech_stacks": [
             "Kotlin",
@@ -78,12 +102,25 @@
         "address": "Makati City, PH",
         "timeline": "July 2017 - October 2020",
         "bullets": [
-            "Contributed to and maintained existing projects, ensuring stability and implementing necessary improvements.",
-            "Actively monitored reports, addressed inquiries, and resolved bugs to maintain optimal app performance and user satisfaction.",
-            "Collaborated with cross-functional teams to integrate essential features, enhancing app functionality and usability.",
-            "Released applications on Google Play Store, managing end-to-end deployment for Centrix and 1go Loadr apps.",
-            "Experienced in independently managing projects, overseeing both mobile app and backend components.",
-            "Communicated directly with project heads, leading discussions and making key decisions on project direction."
+            "Primarily responsible for maintaining and enhancing existing applications for survey and logistics purposes. Worked on new feature development, bug resolution, and ensured a smooth user experience. Played a key role in app releases on the Google Play Store, while collaborating with cross-functional teams to meet business requirements."
+        ],
+        "projects": [
+            {
+                "name": "Centrix Mobile Merchandising App (Survey Application)",
+                "bullets": [
+                    "Maintained and enhanced the survey application used by agents to track product availability in supermarkets.",
+                    "Addressed user inquiries and fixed bugs to maintain stability and optimal app performance.",
+                    "Led the effort to successfully release the app on the Google Play Store."
+                ]
+            },
+            {
+                "name": "1go Loadr (Delivery & Monitoring Application)",
+                "bullets": [
+                    "Assigned to build key features, such as item pick-up, drop-off, and location tracking within specified areas.",
+                    "Collaborated with the team on feature development and took responsibility for fixing reported bugs, ensuring a smooth user interface and app performance.",
+                    "Led the app’s successful release on the Google Play Store."
+                ]
+            }
         ],
         "tech_stacks": [
             "C#",
