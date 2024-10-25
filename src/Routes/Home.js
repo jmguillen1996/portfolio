@@ -5,6 +5,7 @@ import Footer from "../Components/Footer";
 import HeaderNav from "../Components/HeaderNav";
 import HomeAboutMe from "../Components/HomeAboutMe";
 import HomeProjects from "../Components/HomeProjects";
+import HomeExperience from "../Components/HomeExperience";
 import "./Styles/Home.css";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
                 <HomeSkills />
                 <HomeAboutMe />
                 <HomeProjects />
+                <HomeExperience />
                 <Footer />
             </div>
         </div>

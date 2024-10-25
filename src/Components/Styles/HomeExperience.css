@@ -1,0 +1,81 @@
+.experience-container {
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    top: 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.experience-container h2 {
+    color: rgb(29, 161, 242);
+    font-weight: 500;
+    margin: 0;
+    margin-left: 20rem;
+}
+
+.experience-container h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2rem;
+    margin: 0;
+    margin-top: 0.6rem;
+    margin-left: 20rem;
+    font-family: Poppins, sans-serif;
+}
+
+@media (max-width: 1450px) {
+    .experience-container h2 {
+        margin-left: 10rem;
+    }
+
+    .experience-container h1 {
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width: 1100px) {
+    .experience-container h2 {
+        margin-left: 5rem;
+    }
+
+    .experience-container h1 {
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 940px) {
+    .experience-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .experience-container h2 {
+        margin-left: 2rem;
+    }
+
+    .experience-container h1 {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 682px) {
+
+
+    .experience-container h1 {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 670px) {
+
+    .experience-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .experience-container h1 {
+        font-size: 1.5rem;
+    }
+
+}
