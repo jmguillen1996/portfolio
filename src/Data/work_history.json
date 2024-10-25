@@ -4,24 +4,64 @@
         "company": "Vision Frame AI",
         "address": "US",
         "others": "(Project Based)",
-        "timeline": "January 2024 - July 2024"
+        "timeline": "January 2024 - July 2024",
+        "bullets": [
+            "Led the end-to-end development of VisionFrame AI, an innovative AI-powered digital art platform.",
+            "Managed client communications, addressing concerns and integrating feedback to meet expectations.",
+            "Assigned tasks and supervised junior developers to maintain project timelines and ensure on-time delivery.",
+            "Trained and mentored junior team members, fostering growth in their technical skills and project contributions.",
+            "Built VisionFrame AI from scratch, including mobile app and backend systems, for an intuitive and engaging user experience.",
+            "Delivered client-requested features and solutions, ensuring the platform aligned with their vision and requirements."
+        ],
+        "projects": [
+            {
+                "name": "Vision Frame AI (Digital Frame)",
+                "bullets": []
+            },
+            {
+                "name": "VisionFrame AI - User App (Android & iOS)",
+                "bullets": []
+            }
+        ],
+        "tech_stacks": []
     },
     {
         "position": "Associate Research & Development Engineer",
         "company": "Advanced World Solutions Inc.",
         "address": "Makati City, PH",
-        "timeline": "April 2022 - December 2023"
+        "timeline": "April 2022 - December 2023",
+        "bullets": [
+            "Played a key role in developing critical features, including enabling app-to-machine communication and real-time tracking of machine statuses.",
+            "Led the implementation of the core “Measurement” functionality for enhanced usability in healthcare settings.",
+            "Actively contributed to identifying and resolving bugs, ensuring smooth functionality and maintaining high application quality.",
+            "Mentored junior developers and conducted code reviews, supporting team growth and maintaining coding standards."
+        ]
     },
     {
         "position": "Mobile Application Developer",
         "company": "FPG Insurance Inc.",
         "address": "Makati City, PH",
-        "timeline": "October 2020 - April 2022"
+        "timeline": "October 2020 - April 2022",
+        "bullets": [
+            "Developed Android applications from scratch, including SIMONE (insurance app) and RedDot (emergency SOS app), using Kotlin.",
+            "Released multiple applications to Google Play Store, ensuring a smooth and user-ready launch.",
+            "Maintained and enhanced existing applications, including the Handsup time-tracking app, developed in Java.",
+            "Actively monitored reports, addressed inquiries, and resolved bugs to maintain high-quality performance and user satisfaction.",
+            "Collaborated with cross-functional teams to integrate essential features like policy management, time tracking, and emergency notifications."
+        ]
     },
     {
         "position": "Software Developer",
         "company": "In1go Technologies Inc.",
         "address": "Makati City, PH",
-        "timeline": "July 2017 - October 2020"
+        "timeline": "July 2017 - October 2020",
+        "bullets": [
+            "Contributed to and maintained existing projects, ensuring stability and implementing necessary improvements.",
+            "Actively monitored reports, addressed inquiries, and resolved bugs to maintain optimal app performance and user satisfaction.",
+            "Collaborated with cross-functional teams to integrate essential features, enhancing app functionality and usability.",
+            "Released applications on Google Play Store, managing end-to-end deployment for Centrix and 1go Loadr apps.",
+            "Experienced in independently managing projects, overseeing both mobile app and backend components.",
+            "Communicated directly with project heads, leading discussions and making key decisions on project direction."
+        ]
     }
 ]

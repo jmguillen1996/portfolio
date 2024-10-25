@@ -61,7 +61,7 @@
 }
 
 .work-header.open:hover {
-    background-color: rgb(33, 33, 33);
+    background-color: #4444;
 }
 
 .work-address, .work-timeline {
@@ -77,19 +77,35 @@
 .work-content {
     background-color: rgb(41, 41, 41);
     height: 0px;
-    width: 100%;
     transition: all 0.5s cubic-bezier(0, 1, 0, 1);
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .work-content.open {
-    height: 100px;
+    height: auto;
     transition: all 0.5s cubic-bezier(1. 0, 1, 0);
+    gap: 0.5rem;
+    padding: 1.5rem;
 }
 
 .header-indicator {
     color: rgb(200, 200, 200);
+}
+
+.bullet-container {
+    display: flex;
+    flex-direction: row;
+    color: rgb(200, 200, 200);
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+
+.bullet-item {
+    color: rgb(29, 161, 242);
 }
 
 @media (max-width: 1450px) {

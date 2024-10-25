@@ -44,6 +44,16 @@ const HomeExperience = () => {
                                     </div>
                                 </div>
                                 <div className={`work-content ${open[index] ? 'open' : ''}`}>
+                                    {
+                                        work.bullets.map(
+                                            (bullets, index) => (
+                                                <div className="bullet-container">
+                                                    <div className="bullet-item">&#8226;</div>
+                                                    <div>{bullets}</div>
+                                                </div>
+                                            )
+                                        )
+                                    }
                                 </div>
                             </div>
                         )
