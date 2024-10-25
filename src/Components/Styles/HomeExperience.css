@@ -108,6 +108,30 @@
     color: rgb(29, 161, 242);
 }
 
+.work-stack-container {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow-wrap: break-word;
+    gap: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.stack-item {
+    border: 1px solid rgb(112, 112, 112);
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    border-radius: 0.3rem;
+    color: rgb(200, 200, 200);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.stack-item:hover {
+    transform: scale(1.1);
+}
+
 @media (max-width: 1450px) {
     .experience-container h2 {
         margin-left: 10rem;

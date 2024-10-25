@@ -54,6 +54,15 @@ const HomeExperience = () => {
                                             )
                                         )
                                     }
+                                    <div className="work-stack-container">
+                                        {
+                                            work.tech_stacks.map(
+                                                (stack, index) => (
+                                                    <div className="stack-item">{stack}</div>
+                                                )
+                                            )
+                                        }
+                                    </div>
                                 </div>
                             </div>
                         )
