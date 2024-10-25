@@ -1,7 +1,6 @@
 .experience-container {
     background-color: rgb(25, 25, 25);
     width: 100%;
-    top: 0;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -33,32 +32,64 @@
     gap: 1rem;
 }
 
-.work-item {
+.work-header {
     background-color: rgb(33, 33, 33);
     padding: 1rem;
     border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.work-item .work-position {
+.work-header .work-position {
     margin: 0;
     font-size: 1.2rem;
     font-weight: 500;
     color: rgb(29, 161, 242);
+    cursor: pointer;
 }
 
-.work-item:hover {
+.work-header:hover {
     background-color: rgb(41, 41, 41);
 }
 
-.work-address {
+.work-header.open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.work-header.open:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+.work-address, .work-timeline {
     color: rgb(200, 200, 200);
     font-size: 1rem;
     font-weight: 500;
 }
 
 .work-timeline {
-    color: rgb(200, 200, 200);
     font-size: 0.9rem;
+}
+
+.work-content {
+    background-color: rgb(41, 41, 41);
+    height: 0px;
+    width: 100%;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.work-content.open {
+    height: 100px;
+    transition: all 0.5s cubic-bezier(1. 0, 1, 0);
+}
+
+.header-indicator {
+    color: rgb(200, 200, 200);
 }
 
 @media (max-width: 1450px) {
@@ -116,16 +147,12 @@
 }
 
 @media (max-width: 682px) {
-
-
     .experience-container h1 {
         font-size: 2rem;
     }
-
 }
 
 @media (max-width: 670px) {
-
     .experience-container h2 {
         font-size: 1.5rem;
     }
@@ -133,5 +160,4 @@
     .experience-container h1 {
         font-size: 1.5rem;
     }
-
 }
