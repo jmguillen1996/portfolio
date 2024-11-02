@@ -1,55 +1,16 @@
 [
     {
         "name" : "Vision Frame AI",
-        "description": "Test Description",
+        "description": "VisionFrame AI is a digital frame powered by DALL-E 3 and ChatGPT-4, enabling interactive, voice-controlled art displays to transform your space into a dynamic gallery.",
         "icon": "/logo/visionframe.png",
         "tech_stacks" : [
             "Flutter",
-            "Node Js",
-            "Express Js",
             "Firebase",
-            "Android",
-            "IOS",
-            "RESTFUL APIs"
-        ]
-    },
-    {
-        "name" : "Vision Frame AI",
-        "description": "Test Description",
-        "tech_stacks" : [
-            "Flutter",
             "Node Js",
-            "Express Js",
-            "Firebase",
+            "RESTFUL APIs",
+            "OPEN AI",
             "Android",
-            "IOS",
-            "RESTFUL APIs"
-        ]
-    },
-    {
-        "name" : "Vision Frame AI",
-        "description": "Test Description",
-        "tech_stacks" : [
-            "Flutter",
-            "Node Js",
-            "Express Js",
-            "Firebase",
-            "Android",
-            "IOS",
-            "RESTFUL APIs"
-        ]
-    },
-    {
-        "name" : "Vision Frame AI",
-        "description": "Test Description",
-        "tech_stacks" : [
-            "Flutter",
-            "Node Js",
-            "Express Js",
-            "Firebase",
-            "Android",
-            "IOS",
-            "RESTFUL APIs"
+            "IOS"
         ]
     }
 ]

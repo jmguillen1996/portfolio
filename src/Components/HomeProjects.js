@@ -23,6 +23,19 @@ const HomeProjects = () => {
                                     )}
                                     <FiExternalLink size={25} color="#2ba3f7" />
                                 </div>
+                                <h3>{project.name}</h3>
+                                <div className="project-item-desc">{project.description}</div>
+                                <div className="project-stacks-container">
+                                    {
+                                        project.tech_stacks.map(
+                                            (stack, i) => (
+                                                <div>
+                                                    {stack}
+                                                </div>
+                                            )
+                                        )
+                                    }
+                                </div>
                             </div>
                         )
                     )
