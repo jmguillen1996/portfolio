@@ -39,7 +39,7 @@ const HeaderContent = () => {
                 />
             </div>
             <p>
-                Passionate about building high-performance and user-centric mobile applications. Committed to developing innovative solutions that enhance user experience and deliver impactful results.
+            I am passionate about building high-performance mobile applications and committed to helping bring your ideas to life, delivering an exceptional user experience and impactful results.
             </p>
             <div className="header-button-space-top"></div>
             <div className="header-button-container">
