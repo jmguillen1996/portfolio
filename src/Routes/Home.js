@@ -1,11 +1,12 @@
 import React from "react";
 import HeaderContent from "../Components/HeaderContent";
-import HomeSkills from "../Components/HomeSkills";
+import HomeSkills from "../Components/Home/HomeSkills";
 import Footer from "../Components/Footer";
 import HeaderNav from "../Components/HeaderNav";
-import HomeAboutMe from "../Components/HomeAboutMe";
-import HomeProjects from "../Components/HomeProjects";
-import HomeExperience from "../Components/HomeExperience";
+import HomeAboutMe from "../Components/Home/HomeAboutMe";
+import HomeProjects from "../Components/Home/HomeProjects";
+import HomeExperience from "../Components/Home/HomeExperience";
+import HomeGetStarted from "../Components/Home/HomeGetStarted";
 import "./Styles/Home.css";
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
                 <HomeAboutMe />
                 <HomeProjects />
                 <HomeExperience />
+                <HomeGetStarted />
                 <Footer />
             </div>
         </div>

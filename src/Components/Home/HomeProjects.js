@@ -1,6 +1,6 @@
 import React from "react";
-import "./Styles/HomeProjects.css";
-import projects from '../Data/projects.json';
+import "../Styles/Home/HomeProjects.css";
+import projects from '../../Data/projects.json';
 import { FiExternalLink } from 'react-icons/fi';
 import { FaFolder } from 'react-icons/fa';
 

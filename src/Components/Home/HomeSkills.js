@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import './Styles/HomeSkills.css';
-import skills from '../Data/skills.json';
+import '../Styles/Home/HomeSkills.css';
+import skills from '../../Data/skills.json';
 const HomeSkills = () => {
     return (
         <div className="skills-container">

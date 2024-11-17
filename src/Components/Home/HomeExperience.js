@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./Styles/HomeExperience.css";
-import work_history from "../Data/work_history.json";
+import "../Styles/Home/HomeExperience.css";
+import work_history from "../../Data/work_history.json";
 
 const HomeExperience = () => {
     // Initialize 'open' state with an array of 'false' values
