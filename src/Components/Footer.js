@@ -55,7 +55,10 @@ const Footer = () => {
                         />
                     </div>
                 </div>
-                <div className="creator-container"></div>
+                <div className="creator-container">
+                    <p>Created by: <span>Josef M. Guillen</span></p>
+                    <p>Copyright © 2024. All rights reserved.</p>
+                </div>
             </div>
         </div>
     );
