@@ -1,0 +1,30 @@
+.footer-container {
+    background-color: rgb(17, 17, 17);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.footer-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+.contact-details-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-details-container h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.contact-icons-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+}
